@@ -1,13 +1,21 @@
 @charset "UTF-8"; 
-h1{
-    font-size: 1.75em;
-}
+ body{
+         background-image:url(../IMG_0652.jpg);
+    }
+  h1 span{
+      font-size:1.75em;
+      color:#3399cc;
+      text-align:center;
+    }
+ #lead{
+     color:#ffffff;
+    }
+ .greeting{
+      color:#3399cc;
+    }
 h2{
-    font-size: 1.25em;
+    background-color:#fbf9cc;
+    font-weight:bold;
+    border:#000000 1px dotted;
 }
-p{
-    font-size: 0.8em;
-}
-li{
-    font-size: 0.8em;
-}
+h2:first-letter{font-size:1.75em;}
